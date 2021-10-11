@@ -5,6 +5,9 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 350;
 }
+body p {
+  line-height: 25px;
+}
 
 .top-container {
   position: relative;
@@ -109,7 +112,7 @@ h2 {
   background-color: #66bfbf;
   padding: 30px;
   color: #11999e;
-  margin-top: 70px;
+  margin-top: 80px;
 }
 .bottom-container a {
   text-decoration: none;
@@ -124,9 +127,7 @@ h2 {
   color: #11999e;
   margin: 30px auto;
 }
-.contact-me p {
-  margin-bottom: 45px;
-}
+
 .contact-me .btn {
   text-decoration: none;
   background-color: #0da8a8;
@@ -135,4 +136,12 @@ h2 {
   border-radius: 10px;
   color: white;
   font-weight: 350;
+}
+.profile p,
+.contact-me p {
+  width: 490px;
+  margin: 0 auto;
+}
+.contact-me p {
+  margin-bottom: 45px;
 }
