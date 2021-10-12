@@ -117,7 +117,10 @@ h2 {
 .bottom-container a {
   text-decoration: none;
   font-weight: bold;
-  margin-left: 100px;
+  margin: 0 40px 40px;
+}
+.bottom-container a:hover {
+  color: white;
 }
 .bottom-container p {
   margin-bottom: 0;
@@ -137,6 +140,10 @@ h2 {
   color: white;
   font-weight: 350;
   background-image: linear-gradient(#17e4e4, #0da8a8);
+}
+.contact-me .btn:hover {
+  background-image: linear-gradient(#68efef, #0fc3c3);
+  padding: 9px 16px;
 }
 .profile p,
 .contact-me p {
